@@ -17,7 +17,7 @@ export const Cloud = () => {
 
    }) 
     return (
-        <div  ref={ref}>
+        <div  ref={ref} className="cloud">
         <img src={cloudPng} alt="Cloud"/>
           {console.log(playState)}
          <img src={cloudPng} alt="Cloud2"/> 

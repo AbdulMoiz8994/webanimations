@@ -8,3 +8,6 @@ body {
 .plane {
   width: 350px;
 }
+/* .cloud:nth-child(2) {
+  display: none !important;
+} */
