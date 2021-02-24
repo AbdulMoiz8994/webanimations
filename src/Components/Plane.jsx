@@ -3,7 +3,7 @@ import useWebAnimations from "@wellyshen/use-web-animations";
 import Planes from '../Images/plane.gif'
 
 export const Plane = () => {
-    const {ref,planeState}=useWebAnimations({
+    const {ref}=useWebAnimations({
         keyframes:[
             {transform: 'translate(-100%,0)'},
             {transform: 'translate(200%,72%)'},
@@ -22,7 +22,7 @@ export const Plane = () => {
 
     return (
         <div>
-            <img className="plane" src={Planes} alt=""ref={ref}/>
+            <img className="plane" src={Planes} alt="plan" ref={ref}/>
 
         </div>
     )
